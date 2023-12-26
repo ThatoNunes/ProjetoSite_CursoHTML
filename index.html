@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Curso</title>
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+<body>
+    <h1 id="inicio"><strong>Blog HTML</strong></h1>
+    <hr />
+
+
+    <h2>Índice</h2>
+
+    
+    <ul>
+        <li><a href="#Tags">Tags</a></li>
+        <li><a href="#h1">Elementos h1</a></li>
+	    <li><a href="#p">Elemento &ltp&gt ou Parágrafo</a></li>
+        <li><a href="#u">Elemento &ltu&gt ou Sublinhado</a></li>
+        <li><a href="#i">Elemento &lti&gt ou Itálico</a></li>
+	    <li><a href="#strong">Elemento &ltstrong&gt ou Negrito</a></li>
+        <li><a href="#small">Elemento &ltsmall&gt</a></li>
+	    <li><a href="#listas">Listas</a></li>
+	    <li><a href="#ol">Elemento &ltol&gt ou listas ordenadas</a></li>
+	    <li><a href="#ul">Elemento &ltul&gt ou listas não ordenadas</a></li>
+	    <li><a href="#link">Link</a></li>
+	    <li><a href="#a">O elemento &lta&gt ou Âncora</a></li>
+	    <li><a href="#target">O atributo target e title</a></li>
+	    <li><a href="#id">Atributo global id</a></li>
+        <li><a href="#ref">Referências bibliográficas</a></li>
+    </ul>
+   
+    <h2 id="Tags"><i>Tags</i></h2>
+    <small><a href="#inicio">Voltar</a></small>
+    <p><strong>TAGS</strong>:são marcadores usados ​​para delimitar seções de um documento <strong>HTML</strong>.</p>
+    <p>Tem um significado semântico e define um bloco de conteúdo que pode ser manipulado pelo navegador.</p>
+    <p>São extremamente úteis porque permitem que os navegadores interpretem e apresentem corretamente o conteúdo.</p>
+    <p>Além disso, também podem ser usadas para aplicar estilos a um documento <strong>HTML</strong> usando folhas de estilo em cascata (<i>CSS</i>).</p>
+
+    <li><a href="https://www.codewithfaraz.com/article/79/a-comprehensive-list-of-html-tags-for-web-development"target="_blank"> <i>Lista de Tags</i></a></li>
+    <p><i>Exemplos de  Tags usada no curso</i>: </p>
+
+    <h3 id="h1">Elementos h1:</h3>
+    <small><a href="#inicio">Voltar</a></small>
+    <p>representam seis níveis de título de seção. <i>h1</i> é o nível de seção mais alto e <i>h6</i> é o mais baixo.</p>
+    <p>Destina-se a marcar o cabeçalho de uma seção ou da página como um todo e deve ter informações sober o conteundo da seção.</p>
+    
+    <i>Exemplo:</i>
+            <pre>
+            &ltbody>
+                 &ltheader&gt
+                 <strong>&lth1&gt</strong><i>Título principal da página</i><strong>&lt/h1&gt</strong>
+                 &lt/header>
+                 //conteúdo da página
+            &lt/body&gt
+            </pre>
+
+    <h3 id="p">Elemento &ltp&gt ou <i>Parágrafo</i></h3>
+    <small><a href="#inicio">Voltar</a></small>
+    <p>Os <i>navegadores</i> adicionam automaticamente uma única linha em branco antes e depois de cada elemento <strong>&ltp&gt</strong>.</p>
+    <i>Exemplo</i>:
+        <pre>
+            &ltp&gtEste é o primeiro parágrafo&lt/p&gt
+            &ltp&gtEste é o segundo parágrafo&lt/p&gt
+        </pre>
+
+    <h3 id="u">Elemento &ltu&gt ou <i>Sublinhado</i></h3>
+    <small><a href="#inicio">Voltar</a></small>
+    <p>Ajuda a sublinhar o texto incluído na tag <strong>&ltu&gt</strong>.</p>
+    <p>É suportada pelo <i>HTML4.1</i>, mas está obsoleta no <i>HTML5</i>.</p>
+    <p><i>Exemplo</i>:</p>
+        <pre>                     
+            &ltu&gtConteúdo... &lt/u&gt
+            <p>Como aparece em um navagador:</p>
+            <u> Conteúdo... </u>
+        </pre>
+                
+    <h3 id="i">Elemento &lti&gt ou <i>Itálico</i></h3>
+    <small><a href="#inicio">Voltar</a></small>
+    <p>Marque o texto que se destaca em um documento. </p>
+    <p>Por exemplo: termos técnicos, expressões de outros idiomas ou pensamentos de personagens fictícios.</p>
+    <p><i>Exemplo</i>:</p>
+        <pre>
+            &lti&gtFlamengo&lt/i&gt, melhor time do Brasil.
+        <p>Como aparece em um navagador:</p>
+            <i>Flamengo</i>, melhor time do Brasil.
+        </pre>
+
+    <h3 id="strong">Elemento &ltstrong&gt ou Negrito</h3>
+    <small><a href="#inicio">Voltar</a></small>
+    <p>&ltstrong&gt dá ao texto uma forte importância, é mostrado em <strong>negrito</strong>.</p>
+    <p><i>Exemplo</i>:</p>
+        <pre>
+            &ltp&gt
+            Ao fazer x é &ltstrong&gtimperativo&lt/strong&gt que se faça y antes de prosseguir.
+            &lt/p&gt
+        <p>Como aparece em um navagador:</p>
+            Ao fazer x é <strong>imperativo</strong> que se faça y antes de prosseguir.
+        </pre>
+
+    <h3 id="small">Elemento &ltsmall&gt</h3>
+    <small><a href="#inicio">Voltar</a></small>
+
+    <p>é empregado para marcar <i>avisos obrigatórios, restrições legais ou restrições de uso de conteúdo como copyrights<i>,</p> 
+    <p>ou seja, não é apenas para tornar o tamanho do texto menor.</p>
+
+    <h2 id="listas"><i>Listas</i></h2>
+    <small><a href="#inicio">Voltar</a></small>
+    
+    <p><strong>&ltli&gt</strong> (Lista dos Itens de um elemento <i><u>HTML</u></i>)</p>
+    <p>É usado para representar um item que faz parte de uma lista, deve estar contido em um elemento:</p> 
+    <p><strong>&ltol&gt</strong> ou <strong>&ltul&gt</strong> (lista ordenadas e lista não ordenadas respctivamente)</p>
+
+    <h3 id="ol">Elemento &ltol&gt ou <i>listas ordenadas</i>:</h3>
+    <small><a href="#inicio">Voltar</a></small>
+    <p>É também uma lista de itens, são marcadas com números.</p>
+    <p>Uma lista ordenada começa com a tag <strong>&ltol&gt</strong>. Cada item da lista começa com a tag <strong>&ltli&gt</strong>.</p>
+    <p><i>Exemplo</i>:</p>
+        <pre>
+            &ltol&gt</br>
+            &ltli&gtCafé&lt/li&gt</br>
+            &ltli&gtLeite&lt/li&gt</br>
+            &lt/ol&gt
+        <p>Como aparece em um navagador:</p>
+        
+            <strong>1.Café</br>
+            2.Leite</strong>        
+        </pre>
+
+    <h3 id="ul">Elemento &ltul&gt ou <i>listas não ordenadas</i>:</h3>
+    <small><a href="#inicio">Voltar</a></small>
+    <p>lista não ordenada é uma lista de itens. As listas de itens são marcadas com bullets (pequenos círculos pretos "•").</p> 
+    <p>Uma lista não ordenada começa com a tag <strong>&ltul&gt</strong>. Cada item da lista começa com a tag <strong>&ltli&gt</strong>.</p>
+    <p><i>Exemplo</i>:</p>
+        <pre>
+            &ltul&gt</br>
+            &ltli&gtCafé&lt/li&gt</br>
+            &ltli&gtLeite&lt/li&gt</br>
+            &lt/ul&gt</br>
+        <p>Como aparece em um navagador:</p>
+
+            <strong>• Café</br>
+            • Leite</strong>
+        </pre>
+    
+        <p><i>Dentro de um item de uma lista você pode colocar parágrafos, quebras de linha, imagens, vínculos, outras listas, etc.</i></p>
+    
+        
+    <h2 id="link"><i>Link</h2></i>
+    <small><a href="#inicio">Voltar</a></small>
+    <p>O <i>link</i> é criado envolvendo o texto que você quer transformar em um link dentro de um elemento <strong>&lta&gt</strong>,</p>br> e dando-lhe um atributo <i><strong>href</strong></i>, que
+    conterá o endereço da Web para o qual você deseja que o link aponte.</p>
+   
+
+    <h3 id="a">O elemento &lta&gt ou Âncora</h3>
+    <small><a href="#inicio">Voltar</a></small>
+	<p>com o atributo <strong>href</strong> cria-se um hiperligação nas páginas web, arquivos, endereços de emails, ligações na mesma página ou endereços na <i>URL</i>.</p>
+
+    <p><strong>href</strong>: (<i>Referência para Hipertexto</i>) utilizada em linguagem <strong>HTML</strong> que indica o endereço para o qual remete um <i>link</i>.</p>
+    <p><i>Exemplo</i>:</p>
+
+        <pre>
+            &ltp&gt
+                Criando um link para
+                &lta href="https://www.mozilla.org/pt-BR/"&gt página inicial da Mozilla&lt/a&gt.
+            &lt/p&gt
+        </pre>
+
+    <h3 id="target">O atributo target e title</h3>
+    <small><a href="#inicio">Voltar</a></small>
+    <p>O atributo <strong>target</strong> diz ao navegador onde abrir o link.</p>
+    <p>Para abrir um link em uma nova aba, apenas defina o atributo target como <strong><i>_blank</strong></i>.</p>
+    <p>O atributo <strong>title</strong> por sua vez é mostrado como uma <i>"dica"</i> quando se passa o mouse sobre o elemento.</p> 
+    <p>Ele pode ser importante em alguns momentos, como uma espécie de legenda da imagem ou para dar alguma instrução ao usuário.</p>
+    <p><i>Exemplo</i>:</p>
+
+        <pre>
+            &ltp&gt
+                Criando um link para abrir em uma nova aba
+                Confira o &lta href="https://www.freecodecamp.org/" title="Clique aqui" target="_blank"&gtfreeCodeCamp&lt/a&gt.
+            &lt/p&gt
+        </pre>
+
+    <h2 id="id">Atributo global <strong>id</strong></h2>
+    <small><a href="#inicio">Voltar</a></small>
+    <p> define um identificador exclusivo (ID) que deve ser único por todo o documento.</p>
+        <p> Seu objetivo é identificar o elemento ao navegar por <i>âncoras</i>.</p>
+        <p><i>Exemplo</i>:</p>
+            <pre>
+            &ltul&gt</br>
+            &ltli&gt&lta href="#Listas"&gtListas&lt/li&gt</br>
+            &lt/ul&gt</br>
+            
+            &lth2 <strong>id</strong>="#Listas"&gtListas&lt/h2&gt
+            </pre>
+
+    <br>
+    <h2 id="ref">Referências bibliográficas</h2>
+    <small><a href="#inicio">Voltar</a></small>
+
+    <ul>
+	    <li>
+		    <a href="https://www.w3schools.com/" title="Clique aqui" target="_blank">w3schools.com</a>
+	    </li>
+	    <li>
+		    <a href="https://developer.mozilla.org/pt-BR/" title="Clique aqui" target="_blank">developer.mozilla.org</a>
+	    </li>
+	    <li>
+		    <a href="https://www.origiweb.com.br/" title="Clique aqui" target="_blank">origiweb.com.br</a>
+	    </li>
+	    <li>
+		    <a href="https://https://www.geeksforgeeks.org/" title="Clique aqui" target="_blank">geeksforgeeks.org</a>
+	    </li>
+	    <li>
+		    <a href="https://pt.stackoverflow.com/" title="Clique aqui" target="_blank">stacloverflow.com</a>
+	    </li>
+	    <li>
+		    <a href="https://blog.xpeducacao.com.br/" title="Clique aqui" target="_blank">blog.xpeducacao.com.br</a>
+	    </li>
+        <li>
+            <a href="https://dilmarames.com/" title="Clique aqui" target="_blank">dilmarames.com</a>
+        </li>
+	
+	</ul></br>
+
+
+
+</body>
+</html>
